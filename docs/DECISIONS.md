@@ -4,6 +4,11 @@ Changes to assumptions in `docs/BRIEF.md`, newest first. Each entry: date, what 
 
 ## 2026-10-11
 
+- **Scope added: Australian fast-food chains and generic takeaway** (user request). Plan in `docs/FOOD_DATA.md`.
+  **Awaiting approval** (brief §4.4 requires it for a second database): FSANZ AFCD/AUSNUT as the generic source,
+  and chain menu packs built from each chain's published nutrition info, kept in a private repo for personal use.
+  FatSecret is ruled out: Australian data needs a paid tier.
+
 - **Deploy via Cloudflare Workers Builds (Git integration)**, not a local `wrangler deploy`. There is no Mac,
   and this keeps the Cloudflare API token and all secrets out of the build environment. Secrets go in the
   dashboard.

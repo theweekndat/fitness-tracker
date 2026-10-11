@@ -2,7 +2,7 @@
 
 Personal fitness PWA (training, nutrition, health dashboard, readiness) on one free Cloudflare Worker.
 
-- Brief: `docs/BRIEF.md` · Decisions: `docs/DECISIONS.md` · Setup: `docs/SETUP.md`
+- Brief: `docs/BRIEF.md` · Decisions: `docs/DECISIONS.md` · Setup: `docs/SETUP.md` · Food data plan: `docs/FOOD_DATA.md`
 - Current phase: **0 (verification spike)**. Findings in `docs/PHASE0_FINDINGS.md`.
 
 ```

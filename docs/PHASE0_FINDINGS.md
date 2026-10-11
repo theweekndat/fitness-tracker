@@ -63,3 +63,5 @@ Nothing new is billed.
   (recorded in `/api/status` as `oura.token_response_keys`); the token host in practice.
 - OFF hit rate, macro completeness, kJ-only share and serving-size share across 25 Australian products.
 - Camera, persistence, force-quit and push results.
+- Food data (see `docs/FOOD_DATA.md`): AFCD and AUSNUT current licence and takeaway coverage; whether the chosen
+  chains publish full macros (not only kJ); the repo is private before any chain pack is committed.
