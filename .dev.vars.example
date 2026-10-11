@@ -1,0 +1,6 @@
+# Copy to .dev.vars for `wrangler dev`. In production set these as Worker secrets
+# (Cloudflare dashboard > Workers > hub > Settings > Variables and Secrets).
+APP_TOKEN=generate-with-openssl-rand-hex-32
+HEVY_API_KEY=from-hevy.com/settings?developer
+OURA_CLIENT_ID=from-your-oura-oauth-app
+OURA_CLIENT_SECRET=from-your-oura-oauth-app
